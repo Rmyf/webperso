@@ -38,13 +38,6 @@
         display: flex;
         list-style: none;
     }
-    /* header {
-display: flex;
-flex-wrap: wrap;
-align-items: center; 
-justify-content: space-between;
-width: 100%; 
-}*/
     
     nav a {
         font-size: 0.9em;
@@ -149,11 +142,12 @@ width: 100%;
     .toplist,
     .bottomlist {
         width: 100%;
-        margin-top: 100px;
+        padding-bottom: 100px;
     }
     
     .list {
         background-color: #f9f9f9;
+        padding-top: 100px;
     }
     
     .screenimg {
@@ -190,12 +184,22 @@ width: 100%;
     footer {
         background-color: #101010;
         color: #fff;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around
     }
     
     .socialLink {
         list-style: none;
         display: flex;
         justify-content: center;
+    }
+    
+    .fa-github,
+    .fa-linkedin-square,
+    .fa-twitter,
+    .fa-envelope {
+        color: white;
     }
     /*
 
@@ -215,6 +219,6 @@ footer {
 .fa-linkedin-square,
 .fa-twitter,
 .fa-envelope {
-    margin-right: 50px;
+    
     color: white;
-} */
+}

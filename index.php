@@ -86,6 +86,7 @@ foreach($all as $f) {
                 <img class="offset-md-3 img-responsive cvimg"src="images/cv_frame.png" width="260" height="180">
                 <a href="./cv.html" class="offset-md-4 button">Mon CV</a> 
             </div> 
+            
         </div>
     </section>
 
@@ -113,6 +114,12 @@ foreach($all as $f) {
                  <img src="images/mario.png" class="img-responsive screenimg" width="600" height="300" alt="game">
                  <h2 class="">Game</h2>
                  <p class="">Jeu réalisé en Javascript</p>
+                 <a class="" href="">GitHub</a>
+            </section>
+            <section class="offset-md-1">
+                 <img src="images/HelpInCode.png" class="img-responsive screenimg" width="600" height="300" alt="help">
+                 <h2 class="">Forum</h2>
+                 <p class=""></p>
                  <a class="" href="">GitHub</a>
             </section>
         </div>
